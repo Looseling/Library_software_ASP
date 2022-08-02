@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\bin\Debug\net5.0\BulkyBookUtility.deps.json
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\bin\Debug\net5.0\BulkyBookUtility.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\bin\Debug\net5.0\ref\BulkyBookUtility.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\bin\Debug\net5.0\BulkyBookUtility.pdb
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.AssemblyInfo.cs
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\ref\BulkyBookUtility.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookUtility\obj\Debug\net5.0\BulkyBookUtility.pdb

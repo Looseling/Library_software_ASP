@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.AssemblyInfo.cs
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.deps.json
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.runtimeconfig.json
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\ref\BulkyBookDataAccess.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.pdb
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookModels.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookModels.pdb
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\ref\BulkyBookDataAccess.dll
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.pdb
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.genruntimeconfig.cache
+C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookDataAccess\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.CopyComplete
