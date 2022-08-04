@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using BulkyBookDataAccess.Repository;
 using BulkyBookModels;
 using BulkyBookUtility;
 using Microsoft.AspNetCore.Authentication;
@@ -34,6 +35,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IUnitOfWork _unitOfWork;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
@@ -41,7 +43,8 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            IUnitOfWork unitOfWork)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -50,6 +53,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+            _unitOfWork = unitOfWork;
         }
  
         /// <summary>
@@ -111,12 +115,15 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             public string? Address { get; set; }
             public string? Postal { get; set; }
             public string? State { get; set; }
-            public string? StreetAddress { get; set; }
-
+            public string? PhoneNumber { get; set; }
             public string? Role { get; set; }
-            [ValidateNever]
 
+            public int? CompanyId { get; set; }
+            [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
+
+            [ValidateNever]
+            public IEnumerable<SelectListItem> CompanyList { get; set; }
         }
 
 
@@ -142,6 +149,11 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                     {
                         Text = i,
                         Value = i
+                    }),
+                CompanyList = _unitOfWork.Company.GetAll().Select( i => new SelectListItem
+                    {
+                        Text = i.Name,
+                        Value = i.Id.ToString(),
                     })
             };
         }
@@ -152,23 +164,38 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                ApplicationIdentityUser user = (ApplicationIdentityUser)CreateUser();
+                ApplicationIdentityUser user = CreateUser();
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
 
                 user.Name = Input.Name;
                 user.Postal = Input.Postal;
                 user.City = Input.City;
                 user.Address = Input.Address;
                 user.State = Input.State;
-                user.StreetAddress = Input.StreetAddress;
+                user.PhoneNumber = Input.PhoneNumber;
+
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
+
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    if (Input.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.Role_User_Indi);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, Input.Role);
+
+                    }
+
+
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -202,7 +229,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private ApplicationIdentityUser CreateUser()
         {
             try
             {
