@@ -10,3 +10,15 @@ C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookModels\obj\Debug\net6.0\Bu
 C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.dll
 C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookModels\obj\Debug\net6.0\ref\BulkyBookModels.dll
 C:\Users\User\source\repos\C_Sharp\BulkyBook\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.pdb
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.deps.json
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.dll
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\bin\Debug\net6.0\ref\BulkyBookModels.dll
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.pdb
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.AssemblyInfo.cs
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.dll
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\ref\BulkyBookModels.dll
+C:\Users\User\source\repos\C_Sharp\Library_software_ASP\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.pdb

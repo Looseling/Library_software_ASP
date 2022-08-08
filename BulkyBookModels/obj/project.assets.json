@@ -6596,11 +6596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookModels\\BulkyBookModels.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookModels\\BulkyBookModels.csproj",
       "projectName": "BulkyBookModels",
-      "projectPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookModels\\BulkyBookModels.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookModels\\BulkyBookModels.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookModels\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

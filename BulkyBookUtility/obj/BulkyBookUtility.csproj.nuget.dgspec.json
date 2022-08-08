@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookUtility\\BulkyBookUtility.csproj": {}
+    "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookUtility\\BulkyBookUtility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookUtility\\BulkyBookUtility.csproj": {
+    "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookUtility\\BulkyBookUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookUtility\\BulkyBookUtility.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookUtility\\BulkyBookUtility.csproj",
         "projectName": "BulkyBookUtility",
-        "projectPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookUtility\\BulkyBookUtility.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookUtility\\BulkyBookUtility.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\BulkyBook\\BulkyBookUtility\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\C_Sharp\\Library_software_ASP\\BulkyBookUtility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

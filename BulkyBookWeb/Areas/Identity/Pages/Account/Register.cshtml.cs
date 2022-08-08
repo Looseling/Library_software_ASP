@@ -164,7 +164,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                ApplicationIdentityUser user = CreateUser();
+                var user = CreateUser();
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
@@ -176,6 +176,11 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                 user.Address = Input.Address;
                 user.State = Input.State;
                 user.PhoneNumber = Input.PhoneNumber;
+
+                if (Input.Role == SD.Role_User_Comp)
+                {
+                    user.CompanyId = Input.CompanyId;
+                }
 
 
                 var result = await _userManager.CreateAsync(user, Input.Password);

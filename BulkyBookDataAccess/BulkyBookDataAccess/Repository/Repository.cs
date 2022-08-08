@@ -4,8 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BulkyBookDataAccess.Repository
 {
@@ -26,9 +24,12 @@ namespace BulkyBookDataAccess.Repository
             dbSet.Add(entity);
         }
 
-        IEnumerable<T> IRepository<T>.GetAll(string? includeProperties = null)
+        IEnumerable<T> IRepository<T>.GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if (filter != null)
+                query = query.Where(filter);
+
             if (includeProperties != null)
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
@@ -61,7 +62,7 @@ namespace BulkyBookDataAccess.Repository
 
         void IRepository<T>.RemoveRange(IEnumerable<T> entity)
         {
-            dbSet.RemoveRange(entity);  
+            dbSet.RemoveRange(entity);
         }
     }
 }
