@@ -10,7 +10,7 @@ The backend of project was written on ASP.Net MVC.
 
 
 
-##Technologies
+## Technologies
 Project created with:
 
 * ASP.Net Core 6
