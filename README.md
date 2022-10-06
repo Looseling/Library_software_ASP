@@ -13,9 +13,9 @@ The backend of project was written on ASP.Net MVC.
 ## Technologies
 Project created with:
 
-* ASP.Net MVC, .Net 6
+* ASP.Net MVC 6
 * Sql Server, EF Core
-* Bootstrap V5.0 
+* Bootstrap V5.0
 * Jquery, AJAX
 
 
